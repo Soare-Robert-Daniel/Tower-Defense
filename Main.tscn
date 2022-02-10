@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Main.gd" type="Script" id=4]
+
+[node name="Main" type="Node"]
+script = ExtResource( 4 )
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.5, 0.866025, 0, -0.866025, 0.5, 4.80404, 14.1769, 16.5726 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -0.0702788, 0.997527, 0, -0.997527, -0.0702788, 0, 4.83993, 0 )
+
+[node name="PlacingPoint" type="Spatial" parent="."]
